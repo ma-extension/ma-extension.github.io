@@ -1,9 +1,9 @@
-baseURL = "https://ma-extension.github.io/quasar-client"
+baseURL = "https://ma-extension.github.io"
 languageCode = "en-us"
 title = "Manga Agenda Extension"
 theme = "hugo-now-ui"
 # theme = "ananke"
-publishDir = "docs"
+# publishDir = "docs"
 
 
 [[menu.main]]
