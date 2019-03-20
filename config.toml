@@ -1,0 +1,25 @@
+baseURL = "https://ma-extension.github.io/quasar-client"
+languageCode = "en-us"
+title = "Manga Agenda Extension"
+theme = "hugo-now-ui"
+# theme = "ananke"
+publishDir = "docs"
+
+
+[[menu.main]]
+    name = "Documentation"
+    url = "/docs/"
+    pre = "<i class='now-ui-icons design_app'></i>"
+    weight = 1
+
+[[menu.main]]
+    name = "Github"
+    identifier = "github"
+    pre = "<i class='fa fa-github'></i>"
+    url = "https://github.com/ma-extension/"
+    weight = 4
+
+
+[[params]]
+    background = "/images/miika-laaksonen-737086-unsplash.jpg"
+    tint = "red"
