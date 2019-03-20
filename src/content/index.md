@@ -1,4 +1,5 @@
 ---
+type: login
 title: "Manga Agenda Extension"
 featured_image: '/images/Manga-naruto-blanco-negro.jpg'
 description: "Apenas leia, M.A.E. cuida do resto"
