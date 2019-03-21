@@ -1,4 +1,4 @@
 build:
-	cd src && hugo -t hugo-now-ui \
+	cd src && hugo -t AllinOne \
 	&& cp -rf public/* ../
  
