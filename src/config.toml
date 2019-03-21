@@ -1,25 +1,106 @@
-baseURL = "https://ma-extension.github.io"
-languageCode = "en-us"
-title = "Manga Agenda Extension"
-theme = "hugo-now-ui"
+# baseURL = "https://ma-extension.github.io"
+# languageCode = "en-us"
+# title = "Manga Agenda Extension"
+# ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+# theme = "hugo-now-ui"
 # theme = "ananke"
+# theme = "AllinOne"
+# theme = "hugo-theme-massively"
 # publishDir = "docs"
+    
+# [menu]
+# [[menu.main]]
+#     name = "Documentation"
+#     url = "/docs/"
+#     pre = "<i class='now-ui-icons design_app'></i>"
+#     weight = 1
+
+# [[menu.main]]
+#     name = "Github"
+#     identifier = "github"
+#     pre = "<i class='fa fa-github'></i>"
+#     url = "https://github.com/ma-extension/"
+#     weight = 4
+
+baseURL                   = "https://ma-extension.github.io"
+builddrafts                = false
+languageCode               = "pt-BR"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = true
+summaryLength              = 200
+Paginate                   = 3
+
+theme                      = "AllinOne"
+title                      = "Manga Agenda Extension"
+
+pygmentsuseclasses         = true
 
 
-[[menu.main]]
-    name = "Documentation"
-    url = "/docs/"
-    pre = "<i class='now-ui-icons design_app'></i>"
-    weight = 1
-
-[[menu.main]]
-    name = "Github"
-    identifier = "github"
-    pre = "<i class='fa fa-github'></i>"
-    url = "https://github.com/ma-extension/"
-    weight = 4
+[permalinks]
+  blog                     = "blog/:year-:month/:slug/"
 
 
-[[params]]
-    background = "/images/miika-laaksonen-737086-unsplash.jpg"
-    tint = "red"
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+
+[menu]
+  [[menu.main]]
+    name                   = "Docs"
+    weight                 = -120
+    identifier             = "docs"
+    url                    = "docs/"  
+
+  [[menu.main]]
+    name                   = "Posts"
+    weight                 = -110
+    identifier             = "posts"
+    url                    = "posts/" 
+
+  [[menu.main]]
+    name                   = "About"
+    weight                 = -100
+    identifier             = "about"
+    url                    = "about/"  
+
+ 
+
+[params]
+  faviconfile              = "img/zheng.png"               # from static/
+  avatar                   = "images/icon.jpg"             # path to image in static dir e.g img/avatar.png 
+  author                   = "Manga Agenda Extension"
+  description              = ["Apenas leia", "M.A.E. cuida do resto"]           # appears in the site header when set to a non-empty string
+  welcome_head             = "Leia seus mangás"
+  welcome_word             = "~ e M.A.E cuida do resto ~"
+
+  latestpostscount         = 5                             # how many posts to display on the home page
+  bloggroupby              = 'month'
+  dateform                 = "Jan 2, 2006"
+  dateformfull             = "2006-01-02  Monday  15:04:05"
+  noshowreadtime           = false                         # if true, don't show "<x> minutes read" in posts
+
+  # slides
+#   slidesDirPath            = "themes/AllinOne/static/img/header-slides"    # path to image in local dir (path for hugo)
+#   slidesDirPathURL         = "img/header-slides"    # path to image in static dir (for static pages)
+  slidesDirPath            = "static/images/carousel-header"    # path to image in local dir (path for hugo)
+  slidesDirPathURL         = "images/carousel-header"    # path to image in static dir (for static pages)
+
+  # highlighting 
+  highlightjs              = true
+
+  # latex
+  katex                    = true
+
+  # links
+  email                    = "ronald-farias@outlook.com"
+  github                   = "//github.com/ma-extension"
+  twitter                  = "//twitter.com/you"  
+  # analytics
+  googleAnalytics          = "your-google-analytic-id"
+    
