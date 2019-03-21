@@ -3,17 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ma-extension.github.io/docs/quickstart/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ma-extension.github.io/docs/user_guide/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ma-extension.github.io/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://ma-extension.github.io/</loc>
-    <priority>0</priority>
+    <loc>https://ma-extension.github.io/docs/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://ma-extension.github.io/</loc>
+    <lastmod>2019-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ma-extension.github.io/series/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://ma-extension.github.io/about/</loc>
   </url>
   
   <url>
